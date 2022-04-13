@@ -1,8 +1,17 @@
 body {background: #ffffff; margin: 0; padding: 0;}
 a {color: #2b2bf6;}
-#container {width: 900px; margin: 0; padding: 0; background: #dddddd;}
-#header {width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;}
-#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}
-#content {width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}
-#content p {font-family: Arial; font-size: 14px}
-#footer {width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}
+.Milo{
+  width: 200px;
+  border-radius: 20px;
+  border: 5px solid DodgerBlue;
+
+}
+#container {width: 1024px; margin: 0; padding: 0; background: #dddddd;}
+#header {width: 1024px; margin: 0; height: 100px; padding: 0; border: 0; background: #f346e1; text-align: center; }
+#header h1{padding: 10px 0px 0px 0px; text-decoration-line: underline}
+#sidebar {width: 200px; height: 600px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}
+#sidebar p.Home {font-size: 30px; margin: 0px 0px 0px 0px; padding: 5px 5px 5px 5px;}
+#sidebar p {font-size: 25px; margin: 0px 0px 0px 0px; padding: 5px 5px 5px 5px;}
+#content {width: 824px; height: 600px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;  text-align: center;}
+#content p {font-family: Arial; font-size: 30px; font-weight: bold;}
+#footer {width: 1024px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}
